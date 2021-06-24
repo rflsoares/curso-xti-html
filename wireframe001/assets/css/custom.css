@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #1c1c1c;
+    box-sizing: border-box;
+    text-decoration: none;
+} 
+header{
+    background-color: tomato;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    justify-items: center;
+    
+}
+.logo img{
+    width: 70%;
+}
+nav ul{
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+}
